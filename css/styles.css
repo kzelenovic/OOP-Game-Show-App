@@ -1,16 +1,17 @@
 /* Main styles */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&Roboto:300');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 
 /* Variables */
 
 :root {
-  --color-win: #78CF82;
-  --color-lose: #D94545;
+  --color-win: #2e7c37;
+  --color-lose: #d83d3d;
   --color-start: #5b85b7;
-  --color-neutral: #445069;
-  --color-neutral-light: #D2D2D2;
-  --color-keys: #37474F;
-  --color-keys-light: #E5E5E5;
+  --color-neutral: #006d77;
+  --color-neutral-light: #edf6f9;
+  --color-keys: #232d32;
+  --color-keys-light: #edf6f9;
   --font-size-large: 60px;
   --font-size-medium: 20px;
   --transition: all .2s ease-in-out;
@@ -28,6 +29,7 @@ body {
   flex-direction: column;
   display: flex;
   height: 100vh;
+  background-color: #4a9f97;
 }
 
 li, ol, ul {
@@ -38,6 +40,7 @@ li, ol, ul {
 h2 {
   margin: 0;
   text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
   font-size: var(--font-size-large);
   margin: 0;
 }
@@ -86,7 +89,7 @@ button {
 /* Title */
 
 .header {
-  color: #3a3f58;
+  color: #232d32;
 }
 
 
@@ -111,7 +114,7 @@ button {
 
 .show {
   color: #fff;
-  background-color: #4ac0d5;
+  background-color: #006d77;
   font-size: 20px;
   height: 65px;
   width: 65px;
@@ -131,14 +134,14 @@ button {
 }
 
 .chosen {
-  background: #3a3f58;
+  background: #006d77;
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
 }
 
 .wrong {
-  background: #f7a964;
+  background: #b85129;
   color: #FFFFFF;
 }
 
@@ -180,7 +183,7 @@ button {
 }
 
 .start {
-  background-color: #3a3f58;
+  background-color: #006d77;
 }
 
 .start a {
@@ -196,7 +199,7 @@ button {
 }
 
 .lose {
-  background-color: #f5785f;
+  background-color: #d83d3d;
 }
 
 .lose a {
